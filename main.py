@@ -4,7 +4,11 @@ def main():
     ##################################################
     # Comlete your code here
     ##################################################
-
+    split_str = original_str.split(' ')
+    sub1 = split_str[0]
+    sub2 = split_str[1]
+    merged_str = f'{sub2} {sub1}'
+    
     print(sub2)
     print(sub1)
     print(merged_str)
